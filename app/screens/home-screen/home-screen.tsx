@@ -7,8 +7,9 @@ const HomeScreen = () => {
   return (
     <SafeAreaView>
       <View style={styles.screen}>
-        <Text style={{ color: 'black' }}>
+        <Text>
           {translate('appStackScreens.homeScreen')}
+          Text
         </Text>
       </View>
     </SafeAreaView>
