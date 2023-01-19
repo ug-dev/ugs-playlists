@@ -21,7 +21,7 @@ type Prev = [
   18,
   19,
   20,
-  ...0[],
+  ...Array<0>,
 ];
 
 export type Join<K, P> = K extends string | number
