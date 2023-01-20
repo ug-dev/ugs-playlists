@@ -21,7 +21,6 @@ module.exports = {
     'react-native/react-native': true,
   },
   rules: {
-    'prettier/prettier': 'off', // Turn off prettier
     'react-native/no-unused-styles': 'error',
     'react-native/no-inline-styles': 'error',
     '@typescript-eslint/consistent-generic-constructors': 'off',
