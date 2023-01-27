@@ -1,4 +1,26 @@
 {
+    "common": {
+        "ok": "¡De acuerdo!",
+        "cancel": "Cancelar",
+        "clear": "Claro",
+        "back": "Atrás",
+        "brand": "Marca",
+        "apply": "Aplicar",
+        "reject": "Rechazar",
+        "close": "Cerrar",
+        "accept": "Aceptar",
+        "edit": "Editar",
+        "select": "Escoger",
+        "logout": "Cerrar sesión",
+        "submit": "Enviar"
+    },
+    "errors": {
+        "invalidEmail": "Dirección de correo electrónico no válida.",
+        "apiDefaultError": "¡Algo salió mal!",
+        "apiConnectionError": "¡Error de conexión! Por favor, compruebe su WiFi / Internet",
+        "apiNetworkTimedOutError": "¡Se ha agotado el tiempo de espera de la conexión! Por favor, compruebe su WiFi / Internet",
+        "apiNoNetworkError": "¡Algo salió mal! Por favor, compruebe su WiFi / Internet"
+    },
     "appStackScreens": {
         "homeScreen": "Pantalla de inicio"
     }

@@ -1,4 +1,27 @@
 {
+    "common": {
+        "ok": "OK!",
+        "cancel": "Cancel",
+        "clear": "Clear",
+        "back": "Back",
+        "brand": "Brand",
+        "apply": "Apply",
+        "reject": "Reject",
+        "close": "Close",
+        "accept": "Accept",
+        "edit": "Edit",
+        "select": "Select",
+        "logout": "LogOut",
+        "submit": "Submit",
+        "noItemFound": "No {{title}} found"
+    },
+    "errors": {
+        "invalidEmail": "Invalid email address.",
+        "apiDefaultError": "Something went wrong!",
+        "apiConnectionError": "Connection Error! Please check your WiFi/Internet",
+        "apiNetworkTimedOutError": "The connection has timed out! Please check your WiFi/Internet",
+        "apiNoNetworkError": "Something went wrong! Please check your WiFi/Internet"
+    },
     "appStackScreens": {
         "homeScreen": "Home Screen"
     }

@@ -45,5 +45,5 @@ export type NestedObjectPaths<T, D extends number = 10> = [D] extends [never]
 export type NestedObjectLeaves<T, D extends number = 10> = [D] extends [never]
   ? never
   : T extends object
-  ? {[K in keyof T]-?: Join<K, NestedObjectLeaves<T[K], Prev[D]>>}[keyof T]
+  ? { [K in keyof T]-?: Join<K, NestedObjectLeaves<T[K], Prev[D]>> }[keyof T]
   : '';
