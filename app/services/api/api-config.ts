@@ -2,7 +2,7 @@
 // const { API_URL } = require("../../config/env")
 // Or just specify it directly like this:
 
-import Config from 'react-native-config';
+// import Config from 'react-native-config';
 
 /**
  * The options used to configure the API.
@@ -24,6 +24,7 @@ export interface ApiConfig {
  * The default configuration for the app.
  */
 export const DEFAULT_API_CONFIG: ApiConfig = {
-  url: Config.API_URL,
+  url: 'https://testingerror.free.beeceptor.com',
+  // url: Config.API_URL,
   timeout: 10000,
 };

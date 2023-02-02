@@ -1,3 +1,12 @@
+export interface ApiOkResponse {
+  kind: 'ok';
+}
+
+export interface GetName {
+  uid: string;
+  firstName: string;
+}
+
 export type GeneralApiProblem =
   /**
    * Times up.

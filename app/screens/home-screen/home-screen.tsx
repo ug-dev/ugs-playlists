@@ -9,7 +9,18 @@ const HomeScreen = () => {
 
   useEffect(() => {
     userStore.setName('Umang');
+
+    setTimeout(() => {
+      userStore.getName();
+    }, 2000);
   }, [userStore]);
+
+  useEffect(() => {
+    console.log(
+      '🚀 ~ file: home-screen.tsx:21 ~ useEffect ~ userStore.status',
+      userStore.status,
+    );
+  }, [userStore.status]);
 
   return (
     <SafeAreaView>

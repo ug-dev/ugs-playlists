@@ -26,7 +26,7 @@ export const navigationRef = createNavigationContainerRef();
 export function getActiveRouteName<T>(
   state: NavigationState | PartialState<NavigationState>,
 ): T | string {
-  const route = state.routes[state.index!];
+  const route = state.routes[state.index];
 
   // Found the active route -- return the name
   if (!route.state) return route.name;
