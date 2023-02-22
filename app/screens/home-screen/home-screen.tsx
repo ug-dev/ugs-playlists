@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { SafeAreaView, Text, View } from 'react-native';
-import styles from './home-screen.style';
 import { translate } from '../../i18n';
 import { useStore } from '../../models/root-store/root-store';
+import styles from './home-screen.style';
 
 const HomeScreen = () => {
   const { userStore } = useStore();
@@ -15,12 +15,12 @@ const HomeScreen = () => {
     }, 2000);
   }, [userStore]);
 
-  useEffect(() => {
-    console.log(
-      '🚀 ~ file: home-screen.tsx:21 ~ useEffect ~ userStore.status',
-      userStore.status,
-    );
-  }, [userStore.status]);
+  // useEffect(() => {
+  //   console.log(
+  //     '🚀 ~ file: home-screen.tsx:21 ~ useEffect ~ userStore.status',
+  //     userStore.status,
+  //   );
+  // }, [userStore.status]);
 
   return (
     <SafeAreaView>
