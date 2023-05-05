@@ -1,8 +1,8 @@
-import './app/i18n';
-import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import AppStack from './app/navigators/app-navigator';
-import { StoreProvider, RootStoreModel } from './app/models';
+import React from 'react';
+import './i18n';
+import { RootStoreModel, StoreProvider } from './models';
+import AppStack from './navigators/app-navigator';
 
 const App = () => {
   return (
